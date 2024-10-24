@@ -3,11 +3,12 @@ import ChangeQuantity from "../Cart/ChangeQuantity";
 import { addItemToCart } from "../../Redux/cartSlice";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import ChangeSize from "../Cart/ChangeSize";
 
 const ClotheItem = ({clothe}) => {
 
     const [quantity, setQuantity] = useState(1);
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
 
     return (
         <div className="clothe_item" >
@@ -16,10 +17,9 @@ const ClotheItem = ({clothe}) => {
             </Link>
             <h3 className="itemName">{clothe.name}</h3>
             <p className="itemDescription">Price: $ {clothe.price}</p>
-            <p className="itemDescription">Size:<select><option value={clothe.size}></option></select></p>
+            <p className="itemDescription"><ChangeSize /></p>
             <p className="itemDescription"><ChangeQuantity quantity={quantity} setQuantity={setQuantity} /></p>
             <button onClick={() => dispatch(addItemToCart({clothe, quantity}))}>Add to Cart</button>
-            
         </div>
     )
 }

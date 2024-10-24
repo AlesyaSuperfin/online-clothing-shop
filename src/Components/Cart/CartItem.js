@@ -11,6 +11,7 @@ const CartItem = ({cartItem}) => {
     return (<div className="cartItemContainer">
         <p>{clothes.name}</p>
         <p className="cartItemInfo">{cartItem.quantity} items</p>
+        <p className="cartItemInfo">{cartItem.size}size</p>
         <p className="cartItemInfo">Price: $ {clothes.price * cartItem.quantity}</p>
         <span onClick={() => dispatch(removeItemFromCart({cartItemId: cartItem.id}))}>
         <img src={removeIcon} width="20px" alt="removeIcon" />
