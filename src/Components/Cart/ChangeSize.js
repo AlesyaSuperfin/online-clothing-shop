@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ClothesData from "../../Data/ClothesData";
 
 const ChangeSize = () => {
 
