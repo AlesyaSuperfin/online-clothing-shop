@@ -7,7 +7,6 @@ const ClothesData = [
         price: 45,
         description: "Our new collection of essentials for your every day (and beyond). Pieces are designed to mix and match, from the perfect dress to versatile denim to a classic tee. All made to feel like you've worn—and loved—them for years.",
         image: 'partydress',
-        size: ['S', 'M', 'L', 'XL'],
         },
     
         {
@@ -17,7 +16,7 @@ const ClothesData = [
         title: "summer-dress",
         price: 60,
         description: "Our new collection of essentials for your every day (and beyond). Pieces are designed to mix and match, from the perfect dress to versatile denim to a classic tee. All made to feel like you've worn—and loved—them for years.",
-        image: 'summerdress'
+        image: 'summerdress',
         },
     
         {

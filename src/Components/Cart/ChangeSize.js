@@ -1,18 +1,15 @@
-import { useState } from "react";
 
-const ChangeSize = () => {
+const ChangeSize = ({size, setSize}) => {
 
-    const [value, setValue] = useState('');
-    const sizes = ['S', 'M', 'L'];
-
+    const sizes = ['S', 'M', 'L', 'XL']
+    
     const options = sizes.map((size, index) => {
         return <option key={index}>{size}</option>})
-        console.log(options);
 
     return(
         <div>
             <p>Size:
-            <select value={value} onChange={(event) => setValue(event.target.value)}>{options}</select></p>
+            <select value={size} onChange={(event) => setSize(event.target.value)}>{options}</select></p>
         </div>
     )
 }

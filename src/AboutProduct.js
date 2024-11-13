@@ -12,7 +12,7 @@ const AboutProduct = () => {
                     <div key={index} className="header">
                         <h3>{clothe.name}</h3>
                         <h4>Price: {clothe.price} $</h4>
-                        <img src={`${clothe.image}.jpg`} alt="product" width="400px"/>
+                        <img src={`./${clothe.image}.jpg`} alt="product" width="400px"/>
                         <p className="clotheDescription">{clothe.description}</p>
                         <button className="change" onClick={() => navigate(-1)}>Go back</button>
                     </div>

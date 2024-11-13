@@ -13,7 +13,7 @@ export const cartSlice = createSlice ({
                 id: timeID,
                 clotheID: action.payload.clothe.id,
                 quantity: action.payload.quantity,
-                size: action.payload.clothe.size,
+                size: action.payload.size,
                 totalPrice: action.payload.quantity * action.payload.clothe.price
             })
         },
