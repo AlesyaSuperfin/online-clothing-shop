@@ -21,7 +21,7 @@ const ClotheItem = ({clothe}) => {
             <p className="itemDescription">Price: $ {clothe.price}</p>
             <p className="itemDescription"><ChangeSize size={size} setSize={setSize} /></p>
             <p className="itemDescription"><ChangeQuantity quantity={quantity} setQuantity={setQuantity} /></p>
-            <button onClick={() => dispatch(addItemToCart({clothe, quantity, size}))}>Add to Cart</button>
+            <button className='button_CTA' onClick={() => dispatch(addItemToCart({clothe, quantity, size}))}>Add to Cart</button>
         </div>
     )
 }

@@ -8,8 +8,7 @@ const ChangeSize = ({size, setSize}) => {
 
     return(
         <div>
-            <p>Size:
-            <select value={size} onChange={(event) => setSize(event.target.value)}>{options}</select></p>
+            <p className="itemDescription">Size: <select value={size} onChange={(event) => setSize(event.target.value)}>{options}</select></p>
         </div>
     )
 }
