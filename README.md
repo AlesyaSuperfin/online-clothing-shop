@@ -7,12 +7,12 @@
 
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%201.png#:~:text=Screenshot%201.-,png,-Screenshot%202.png)
 
-I created Online Food Ordering project to learn how to work with Redux.js.
+I created Online Clothing Shop project to learn how to work with Redux.js.
 
 * The project is based on React & Redux.js.
-* The project contains 11 dishes by different categories & order option.
-* You can filter products using category buttons ("Italian", "Seafood", "Salads" etc.)
-* Redux implementattion allows to add dishes to cart / remove from cart, to change quantity of dishes and as a result to see the Total price for the order.
+* The project contains the base of 35 clothing items by different categories & order option.
+* You can filter items using category buttons ("Women", "Kids", "Pants" etc.)
+* Redux implementattion allows to add items to cart / remove from cart, to choose the sixe of item, to change quantity of item and as a result to see the Total price for the order.
 
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%202.png#:~:text=Screenshot%202.-,png,-Screenshot%203.png)
 
