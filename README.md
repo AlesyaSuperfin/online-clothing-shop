@@ -5,7 +5,7 @@
 
 [Link for the application](https://alesya-superfin-online-clothing-shop.netlify.app/)
 
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/commit/c88badbed63fb44360b48ee5d8b2b003172bf2ce#diff-2d645ac2ce5c9541b4e21e2f23c8589dc54b16b24723adc8ec6dfc61e1d8561c:~:text=Screenshot%201.-,png,-Screenshot%202.png)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/edit/main/README.md#:~:text=public-,Screenshot,-1.png)
 
 I created Online Food Ordering project to learn how to work with Redux.js.
 
