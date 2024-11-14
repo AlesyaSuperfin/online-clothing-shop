@@ -14,3 +14,8 @@ I created Online Food Ordering project to learn how to work with Redux.js.
 * You can filter products using category buttons ("Italian", "Seafood", "Salads" etc.)
 * Redux implementattion allows to add dishes to cart / remove from cart, to change quantity of dishes and as a result to see the Total price for the order.
 
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/edit/main/README.md#:~:text=Screenshot%202.-,png,-Screenshot%203.png)
+
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/edit/main/README.md#:~:text=Screenshot%202.png-,Screenshot,-3.png)
+
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/edit/main/README.md#:~:text=Screenshot%203.png-,Screenshot,-4.png)
