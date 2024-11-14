@@ -3,7 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Link for the application](hhttps://alesya-superfin-online-clothing-shop.netlify.app/)
+[Link for the application](https://alesya-superfin-online-clothing-shop.netlify.app/)
 
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/redux-food-ordering/blob/main/src/Screenshot%202024-09-24%20at%2014.00.33.png)
 
