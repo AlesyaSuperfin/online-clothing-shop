@@ -18,4 +18,4 @@ I created Online Food Ordering project to learn how to work with Redux.js.
 
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%203.png#:~:text=Screenshot%203.-,png,-Screenshot%204.png)
 
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/edit/main/README.md#:~:text=Screenshot%203.png-,Screenshot,-4.png)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%204.png#:~:text=Screenshot%203.png-,Screenshot,-4.png)
