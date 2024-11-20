@@ -1,4 +1,4 @@
-import image from './close-up-woman-sandals-near-shopping-bags_23-2148238183.jpg';
+import image from './images/close-up-woman-sandals-near-shopping-bags_23-2148238183.jpg';
 
 function About () {
     return(

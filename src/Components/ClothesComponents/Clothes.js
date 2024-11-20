@@ -5,7 +5,7 @@ function Clothes ({ClothesData}) {
     return (
         <div className='item_container'>
             {ClothesData
-            .map((clothe, item) => <ClotheItem key={item} clothe={clothe} />)}
+            .map((clothe) => <ClotheItem key={clothe.id} clothe={clothe} />)}
         </div>
     )
 }
