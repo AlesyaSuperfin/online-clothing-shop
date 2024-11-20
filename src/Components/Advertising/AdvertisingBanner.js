@@ -27,15 +27,8 @@ const AdvertisingBanner = () => {
 
   return (
     <div>
-    <div>
-        {BannerData.map((banner) => {
-            const {id, image} = banner;
-            return (
-            <img src={`./${banner.image}.jpg`} alt='banner' className='banner' />
-            )
-        })}
-    </div> 
     <button onClick={previousBanner}>Previous</button>
+    <img src={image} />
     <button onClick={nextBanner}>Next</button>
     </div>
   )
