@@ -14,7 +14,7 @@ The project is based on React & Redux.js and contains the following technologies
 * The navigation is created using ***React Router***.
 * Three relevant and functional pages with a ***user-friendly design***.
 * An advertisement unit with integrated ***slides***.
-* The following ***React hooks*** are used: useState(), useSelector(), useDispatch(), useForm(), useNavigate().
+* The following ***React hooks*** are used: **useState(), useSelector(), useDispatch(), useForm(), useNavigate()**.
 * The project includes a base of 35 clothing items categorized by type, with an order option. ***Filtering capability*** is implemented using category buttons (e.g., "Women", "Kids", "Pants", etc.).
 * ***Redux.js*** implementation allows users to add or remove items from the cart, select item sizes, change item quantities, and see the total price of the order.
 * The feedback form is based on the "Formspree" service.
