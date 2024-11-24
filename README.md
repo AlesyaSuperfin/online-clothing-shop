@@ -21,4 +21,4 @@ I created Online Clothing Shop project to learn how to work with Redux.js.
 
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%204.png#:~:text=Screenshot%203.png-,Screenshot,-4.png)
 
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%204.png#:~:text=Screenshot%203.png-,Screenshot,-5.png)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%205.png#:~:text=Screenshot%204.png-,Screenshot,-5.png)
