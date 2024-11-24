@@ -5,15 +5,18 @@
 
 [Link for the application](https://alesya-superfin-online-clothing-shop.netlify.app/)
 
+The project is created on the basis of the Front-end development course and shows my knowleges in React and Redux.js.
+
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%201.png#:~:text=Screenshot%201.-,png,-Screenshot%202.png)
 
-I created Online Clothing Shop project to learn how to work with Redux.js.
+The project is based on React & Redux.js and contains the following technologies:
 
-* The project is based on React & Redux.js.
-* The project contains the base of 35 clothing items by different categories & order option.
-* You can filter items using category buttons ("Women", "Kids", "Pants" etc.)
-* Redux implementattion allows to add items to cart / remove from cart, to choose the size of item, to change quantity of item and as a result to see the Total price for the order.
-* The project contains navigation created with ReactRouter.
+* The navigation is created using React Router.
+* Three relevant and functional pages with a user-friendly design.
+* An advertisement unit with integrated slides.
+* The following React hooks are used: useState(), useSelector(), useDispatch(), useForm(), useNavigate().
+* The project includes a base of 35 clothing items categorized by type, with an order option. Filtering capability is implemented using category buttons (e.g., "Women", "Kids", "Pants", etc.).
+* Redux implementation allows users to add or remove items from the cart, select item sizes, change item quantities, and see the total price of the order.
 
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%202.png#:~:text=Screenshot%202.-,png,-Screenshot%203.png)
 
