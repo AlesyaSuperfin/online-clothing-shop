@@ -17,6 +17,8 @@ The project is based on React & Redux.js and contains the following technologies
 * The following React hooks are used: useState(), useSelector(), useDispatch(), useForm(), useNavigate().
 * The project includes a base of 35 clothing items categorized by type, with an order option. Filtering capability is implemented using category buttons (e.g., "Women", "Kids", "Pants", etc.).
 * Redux implementation allows users to add or remove items from the cart, select item sizes, change item quantities, and see the total price of the order.
+* The feedback form is based on the "Formspree" service.
+* The alert system is based on the "SweetAlert2" service.
 
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%202.png#:~:text=Screenshot%202.-,png,-Screenshot%203.png)
 
