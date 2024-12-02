@@ -11,20 +11,11 @@ import Footer from './Footer';
 import About from './About';
 import Contacts from './Contacts';
 import { useState, useEffect } from 'react';
-import LoaderPage from './Components/Loader/LoaderPage';
 
 function App() {
 
-  const [stateLoader, setStateLoader] = useState(true);
-
-  useEffect (() => {
-    const timer = setTimeout(()=>setStateLoader(false), 3000);
-    return () => clearInterval(timer)
-  }, [])
-
   return (
     <div>
-      <div>{stateLoader && <LoaderPage />}</div>
   <Router>
     <nav>
       <Link className='link' to='/'>Shop</Link>

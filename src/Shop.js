@@ -23,8 +23,7 @@ const Shop = () => {
       <div className="App">
       <div className='shop_container'>
         <AllCategories filteredClothes={chosenClothes} setClothes={setClothes} />
-        <Cart />
-      </div>
+        <Cart />       </div>
         <Clothes ClothesData={clothes} />
     </div>
   </div>
