@@ -10,7 +10,6 @@ import AboutProduct from './AboutProduct';
 import Footer from './Footer';
 import About from './About';
 import Contacts from './Contacts';
-import { useState, useEffect } from 'react';
 
 function App() {
 
