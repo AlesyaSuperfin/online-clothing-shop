@@ -20,7 +20,7 @@ The project is based on React & Redux.js and contains the following technologies
 * The feedback form is based on the "Formspree" service.
 * The alert system is based on the "SweetAlert2" service.
 
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%202.png#:~:text=Screenshot%202.-,png,-Screenshot%203.png)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/redux_store_2.jpg#:~:text=redux_store_2.-,jpg,-redux_store_3.jpg)
 
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%203.png#:~:text=Screenshot%203.-,png,-Screenshot%204.png)
 
