@@ -20,14 +20,14 @@ The project is based on React & Redux.js and contains the following technologies
 * The feedback form is based on the "Formspree" service.
 * The alert system is based on the "SweetAlert2" service.
 
-"Shop" page:
+<h3 align="center">"Shop" page:</h3>
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/redux_store_2.jpg#:~:text=redux_store_2.-,jpg,-redux_store_3.jpg)
 
-"Product" page:
+<h3 align="center">"Product" page:</h3>
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/redux_store_3.jpg#:~:text=redux_store_2.jpg-,redux_store_3,-.jpg)
 
-"About" page:
+<h3 align="center">"About" page:</h3>
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/redux_store_4.jpg#:~:text=redux_store_3.jpg-,redux_store_4,-.jpg)
 
-"Contacts" page:
-![Product Name Screen Shot](hthttps://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/redux_store_5.jpg#:~:text=redux_store_4.jpg-,redux_store_5,-.jpg)
+<h3 align="center">"Contacts" page:</h3>
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/redux_store_5.jpg#:~:text=redux_store_4.jpg-,redux_store_5,-.jpg)
