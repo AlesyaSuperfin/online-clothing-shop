@@ -30,4 +30,4 @@ The project is based on React & Redux.js and contains the following technologies
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/redux_store_4.jpg#:~:text=redux_store_4.-,jpg,-redux_store_5.jpg)
 
 "Contacts" page:
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/edit/main/README.md#:~:text=redux_store_4.jpg-,redux_store_5,-.jpg)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/edit/main/README.md#:~:text=redux_store_5.-,jpg,-romance.jpg)
