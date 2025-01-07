@@ -7,7 +7,7 @@
 
 The project is created on the basis of the Front-end development course and shows my knowleges in React and Redux.js.
 
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/Screenshot%201.png#:~:text=Screenshot%201.-,png,-Screenshot%202.png)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-shop/blob/main/public/redux_store_1.jpg#:~:text=redux_store_1.-,jpg,-redux_store_2.jpg)
 
 The project is based on React & Redux.js and contains the following technologies:
 
