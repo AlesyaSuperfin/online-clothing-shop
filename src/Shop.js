@@ -18,12 +18,14 @@ const Shop = () => {
       <div>
         <div>
         <AdvertisingBanner />
+        <h2 className='title'>Shop New Collection</h2>
+        <hr class="line_big"></hr>
         </div>
-      <h1>Welcome to "Estetica" Online Store</h1>
       <div className="App">
       <div className='shop_container'>
         <AllCategories filteredClothes={chosenClothes} setClothes={setClothes} />
-        <Cart />       </div>
+        <Cart />       
+      </div>
         <Clothes ClothesData={clothes} />
     </div>
   </div>

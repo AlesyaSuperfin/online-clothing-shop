@@ -16,11 +16,18 @@ function App() {
   return (
     <div>
   <Router>
+  <div>
+    <h1>Estetica Etc.</h1>
+    <h2 className='title'>Sustainable. Beautiful. Ethical.</h2>
+    </div>
     <nav>
       <Link className='link' to='/'>Shop</Link>
       <Link className='link' to='/about'>About</Link>
       <Link className='link' to='/contacts'>Contacts</Link>
     </nav>
+    <div>
+    <hr class="line_big"></hr>
+    </div>
     <Routes>
       <Route path='/' element={<Shop />} />
       <Route path='/about' element={<About />} />

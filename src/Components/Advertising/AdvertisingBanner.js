@@ -29,8 +29,8 @@ const AdvertisingBanner = () => {
     <div className='advertising_container'>
     <img className='banner' src={`${image}.jpg`} alt="img_banner"/>
         <div className='button_container'>
-        <button className='btn_banner btn_previous' onClick={previousBanner}><span>ᐸ</span> Previous</button>
-        <button className='btn_banner btn_next' onClick={nextBanner}>Next <span>ᐳ</span></button>
+        <button className='btn_banner btn_previous' onClick={previousBanner}><span>ᐸ</span></button>
+        <button className='btn_banner btn_next' onClick={nextBanner}><span>ᐳ</span></button>
         </div>
     </div>
   )

@@ -18,8 +18,10 @@ const Cart = () => {
 
     return (
         <div className='cartContainer'>
-            <img src={CartIcon} alt='cart_icon' className='cart_icon'/>
-            <h3>Total: $ {totalPrice}</h3>
+            <div className='cart_total'>
+                <img src={CartIcon} alt='cart_icon' className='cart_icon'/>
+                <h3>Total: $ {totalPrice}</h3>
+            </div>
             <button onClick={handleAlert} className='button_CTA button_Order'>ORDER NOW</button>
             {cartItems.map((cartItem) => <CartItem key={cartItem.id} cartItem={cartItem} />)}
         </div>

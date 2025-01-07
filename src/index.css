@@ -1,20 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Wix Madefor Text", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Poppins", sans-serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 .App {
   display: flex;
+  width: 90%;
+  margin: auto;
 }
 
 .banner {
@@ -23,33 +17,55 @@ code {
 
 h1 {
   text-align: center;
-  font-size: 22px;
-  margin-top: 30px;
-  color: #222222;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #575757;
   font-weight: 600;
 }
 
-h3, h2 {
-  color: #222222;
-  margin: 0;
+.title {
+  text-align: center;
+  font-size: 20px;
+  color:#575757;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
-h2 {
-  font-style: italic ;
+h3, h2 {
+  color: #575757;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.line, .line_big {
+  display: block;
+  border: none;
+  border-top: 0.1px solid #cccccc;
+  padding: 0;
+}
+
+.line_big {
+  width: 70%;
 }
 
 .shop_container {
-  padding-left: 60px;
+  padding-left: 20px;
   padding-right: 40px;
-  margin-top: 10px;
 }
 
 .clothes_img {
+  object-fit: cover;
   width: 250px;
+  height: 330px;
+  transition: 0.3s;
 }
 
 .clothes_img:hover {
   filter: brightness(0.7);
+  scale: 1.05;
+  transition: 0.3s;
 }
 
 .item_container {
@@ -61,6 +77,24 @@ h2 {
   margin: 20px;
 }
 
+.name_price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemName {
+  color: rgb(71, 71, 71);
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.itemDescription {
+  margin-bottom: 3px;
+  margin-top: 3px;
+  font-size: 14px;
+}
+
 .categories_container {
   display: flex;
   flex-direction: column;
@@ -68,32 +102,29 @@ h2 {
 }
 
 button, input {
-  font-family: "Poppins", sans-serif;
+  font-family: "Wix Madefor Text", serif;
 }
 
 .button_CTA {
   border: none;
-  padding: 5px 15px 5px 15px;
-  background-color: #222222;
-  color: #ffc085;
+  padding: 10px 15px 10px 15px;
+  width: 100%;
+  background-color: #697a6f;
+  color: white;
   margin-top: 5px;
   cursor: pointer;
 }
 
 .button_CTA:hover {
-  background-color: #ffc085;
-  color: #17161b;
+  background-color: #697a6fce;
+  transition: 0.3s;
   cursor: pointer;
-}
-
-.button_Order {
-  font-weight: bolder;
 }
 
 .cart_icon {
   width: 50px;
   margin: 40px;
-  margin-bottom: 5px;
+  margin-bottom: 0;
 }
 
 .category_button {
@@ -103,18 +134,10 @@ button, input {
   padding: 3px;
   font-size: 16px;
   background-color: white;
-  color: black;
-  padding: 0px 10px;
-}
-
-.person {
-  color: rgb(85, 85, 85);
-  font-style: italic;
+  color: #575757;
 }
 
 .category_button:hover {
-  background-color: #83645088;
-  color: white;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -122,26 +145,21 @@ button, input {
 nav {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: white;
   padding: 5px;
 }
 
 .link {
-  color: white;
+  color: #575757;
   padding: 10px 40px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .link:hover {
-  color: #ffc085;
+  color: black;
 }
 
-.itemDescription {
-  margin-bottom: 3px;
-  margin-top: 3px;
-  font-size: 14px;
-}
 
 .btn_quantity {
   margin: 3px;
@@ -150,13 +168,6 @@ nav {
 
 .cartContainer {
   text-align: center;
-}
-
-.itemName {
-  color: rgb(71, 71, 71);
-  text-decoration: none;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 .header {
@@ -168,14 +179,6 @@ nav {
 
 .clotheDescription {
   width: 70%;
-  text-align: center;
-}
-
-.footer_text {
-  margin-top: 40px;
-  margin-bottom: 20px;
-  font-size: 14px;
-  color: gray;
   text-align: center;
 }
 
@@ -200,6 +203,20 @@ nav {
 .info {
   margin-top: 5px;
   text-align: center;
+  width: 80%;
+  color: #575757;
+}
+
+.item_page {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  align-items: center;
+}
+
+.buttonReturn {
+  width: 50%;
 }
 
 form {
@@ -211,6 +228,13 @@ input, textarea {
   width: 100%;
   margin: 10px 0px;
   padding: 3px;
+  font-family: "Wix Madefor Text", serif;
+}
+
+.advertising_container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .banner {
@@ -218,17 +242,17 @@ input, textarea {
 }
 
 .btn_banner {
-  background-color: black;
   color: white;
+  background-color: rgba(0, 0, 0, 0);
   border: none;
-  font-size: 16px;
+  font-size: 26px;
   position: absolute;
-  top: 150px;
+  top: 50%;
   margin: 20px;
 }
 
 .btn_banner:hover {
-  color: #ffc085;
+  color: #697a6f;
 }
 
 .btn_previous {
@@ -239,121 +263,41 @@ input, textarea {
   right: 10px;
 }
 
-/* Loader */
-.container_loader {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #1a1a1a94;
-  }
-  
-  .lds-roller {
-  position: absolute;
-  top: 45%;
-  left: 45%;
-  }
-  
-  .lds-roller div {
-  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  transform-origin: 40px 40px;
-  }
-  
-  .lds-roller div:after {
-  content: " ";
-  display: block;
-  position: absolute;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: #fff;
-  margin: -4px 0 0 -4px;
-  z-index: 2;
-  }
-  
-  .lds-roller div:nth-child(1) {
-  animation-delay: -0.036s;
-  }
-  
-  .lds-roller div:nth-child(1):after {
-  top: 63px;
-  left: 63px;
-  }
-  
-  .lds-roller div:nth-child(2) {
-  animation-delay: -0.072s;
-  }
-  
-  .lds-roller div:nth-child(2):after {
-  top: 68px;
-  left: 56px;
-  }
-  
-  .lds-roller div:nth-child(3) {
-  animation-delay: -0.108s;
-  }
-  
-  .lds-roller div:nth-child(3):after {
-  top: 71px;
-  left: 48px;
-  }
-  
-  .lds-roller div:nth-child(4) {
-  animation-delay: -0.144s;
-  }
-  
-  .lds-roller div:nth-child(4):after {
-  top: 72px;
-  left: 40px;
-  }
-  
-  .lds-roller div:nth-child(5) {
-  animation-delay: -0.18s;
-  }
-  
-  .lds-roller div:nth-child(5):after {
-  top: 71px;
-  left: 32px;
-  }
-  
-  .lds-roller div:nth-child(6) {
-  animation-delay: -0.216s;
-  }
-  
-  .lds-roller div:nth-child(6):after {
-  top: 68px;
-  left: 24px;
-  }
-  
-  .lds-roller div:nth-child(7) {
-  animation-delay: -0.252s;
-  }
-  
-  .lds-roller div:nth-child(7):after {
-  top: 63px;
-  left: 17px;
-  }
-  
-  .lds-roller div:nth-child(8) {
-  animation-delay: -0.288s;
-  }
-  
-  .lds-roller div:nth-child(8):after {
-  top: 56px;
-  left: 12px;
-  }
-  
-  @keyframes lds-roller {
-  0% {
-  transform: rotate(0deg);
-  }
-  
-  100% {
-  transform: rotate(360deg);
-  }
-  }
+.main_footer {
+  background-color: #e8eeea;
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.footer_box {
+  margin: 20px;
+}
 
-@media all and (max-width: 500px) {
+.footer_text, .footer_link {
+  font-size: 14px;
+  margin: 5px;
+  color: gray;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer_link:hover{
+  text-decoration: underline;
+}
+
+.developed_by {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media all and (max-width: 850px) {
+  .clothes_img {
+    width: 230px;
+    height: 300px;
+  }
+}
+
+@media all and (max-width: 550px) {
   .App {
     flex-direction: column;
   }
@@ -362,21 +306,21 @@ input, textarea {
     padding: 15px;
   }
 
-  h1 {
-    width: 80%;
-    margin: auto;
+  .info {
+    width: 100%;
   }
 
-  .categories_container {
+  .categiries_section {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
-  .categoryButton {
-    margin: 5px;
-    padding: 5px;
+  .shop_container {
+    padding: 10px;
+  }
+
+  .category_button {
+    padding: 0;
   }
 
   .item_container {
@@ -385,9 +329,25 @@ input, textarea {
 
   .cart_icon {
     margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cart_total {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
   }
 
   .imgAbout {
+    width: 90%;
+  }
+
+  .item_page {
+    width: 80%;
+  }
+
+  .clotheDescription {
     width: 90%;
   }
 
@@ -396,8 +356,14 @@ input, textarea {
   }
 
   .btn_banner {
-    top: 120px;
+    top: 30%;
     font-size: 12px;
   }
 
+  .main_footer {
+    background-color: #e8eeea;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
