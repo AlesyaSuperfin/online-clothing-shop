@@ -290,6 +290,10 @@ input, textarea {
   margin-bottom: 20px;
 }
 
+.company_name_footer {
+  text-align: center;
+}
+
 @media all and (max-width: 850px) {
   .clothes_img {
     width: 230px;

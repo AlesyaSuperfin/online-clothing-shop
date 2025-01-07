@@ -9,14 +9,11 @@ function Footer () {
         <br></br>
         <div className="main_footer">
         <div className="footer_box">
-                <p className="footer_text"><a className="footer_link" href='/'>Shop</a></p>
-                <p className="footer_text"><a className="footer_link" href='/about'>About</a></p>
-                <p className="footer_text"><a className="footer_link" href='/contacts'>Contacts</a></p>
-                <h3>Estetica Etc.</h3>
-            </div>
-            <div className="footer_box">
                 <p className="footer_text">500 Terry Francine Street</p>
                 <p className="footer_text">San Francisco, CA 94158</p>
+                <h3 className='company_name_footer'>Estetica Etc.</h3>
+            </div>
+            <div className="footer_box">
                 <p className="footer_text"><a className="footer_link" href="mailto:info@estetika.com">info@estetika.com</a></p>
                 <p className="footer_text">Call 1.800.723.2889</p>
             </div>
